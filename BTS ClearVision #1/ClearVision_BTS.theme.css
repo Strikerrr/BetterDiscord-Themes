@@ -1,0 +1,22 @@
+//META{"name":"ClearVision_BTS","description":"Just BTS","author":"Striker","version":"1"}*//{}
+
+@import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
+:root {
+	--main-color: #00ffe5;
+	--hover-color: #00aa99;
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+
+body::after,
+.callout-backdrop,
+.userPopout-4pfA0d::before,
+.root-2sNHUF::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+    background-image: url(https://i.imgur.com/SE4HTwo.jpg) !important;
+}
